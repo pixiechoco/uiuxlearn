@@ -1,0 +1,55 @@
+baseurl = "https://example.org/"
+languageCode = "en-us"
+title = "UIUX"
+theme = "hugo-material-docs-master"
+metadataformat = "yaml"
+canonifyurls = true
+# Enable Google Analytics by entering your tracking id
+googleAnalytics = ""
+
+
+
+	version = "1.0.0"
+	logo = "images/logo.png"
+	favicon = ""
+
+	permalink = "#"
+
+	# Custom assets
+	custom_css = []
+	custom_js  = []
+
+	# Syntax highlighting theme
+	highlight_css  = ""
+
+	[params.palette]
+    	primary = "red"
+    	accent  = "teal"
+
+    [params.font]
+    	text = "Ubuntu"
+    	code = "Ubuntu Mono"
+
+
+[[menu.main]]
+	name   = "UX"
+	url    = "ux/"
+	weight = 10
+
+
+
+    [[menu.main]]
+	name   = "UI"
+	url    = "ui/"
+	weight = 20
+
+[[menu.main]]
+	name   = "組件"
+	url    = "component/"
+	weight = 30
+
+[blackfriday]
+	smartypants	= true
+	fractions = true
+	smartDashes = true
+	plainIDAnchors = true
