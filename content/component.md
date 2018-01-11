@@ -1,9 +1,8 @@
 ---
 date: 2016-03-09T19:56:50+01:00
-title: ui
+title: component
 weight: 20
 ---
-## PPP
 
 ## UI 組件百科
 
